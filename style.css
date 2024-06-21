@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 0.7rem;
+    background-color: beige;
+    gap: 1.3rem;
+}
+.mainGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 45%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    max-width: 599px;
+}
+.gamebutton{
+    height: 9rem;
+    width: 9rem;
+    background-color: pink;
+    box-shadow: 2px 2px 5px black;
+    font-size: 3rem;
+    color: rgb(0, 90, 63);
+}
+.gamebutton:hover{
+    background-color: rgba(255, 192, 203, 0.47);
+}
+.resetButton{
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #6b6a55;
+    border-radius: 1rem;
+}
